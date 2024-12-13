@@ -16,4 +16,4 @@ spec:
       - name: bestbuy-staff-service
         image: yogeshbhatt0199/staff-service:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 500
