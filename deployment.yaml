@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bestbuy-staff-service
+spec:
+  replicas: 2  # Number of instances
+  selector:
+    matchLabels:
+      app: bestbuy-staff-service
+  template:
+    metadata:
+      labels:
+        app: bestbuy-staff-service
+    spec:
+      containers:
+      - name: bestbuy-staff-service
+        image: yogeshbhatt0199/staff-service:latest
+        ports:
+        - containerPort: 5000
