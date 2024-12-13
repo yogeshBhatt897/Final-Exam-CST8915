@@ -1,0 +1,5 @@
+# Flask is the web framework used to build the REST APIs
+flask==2.3.3
+
+# Optional: Werkzeug is a Flask dependency for handling HTTP and WSGI utilities
+werkzeug>=2.3.0
