@@ -33,5 +33,5 @@ The BestBuy Staff-Service Microservice is a cloud-native application designed to
 ## Commit Messages
 - App.py: "Initial commit."
 - Dockerfile: "Adding Dockerfile"
-- deployment.yaml: "Configured Kubernetes deployment for AKS."
+- deployment.yaml: "Adding AKS deployment file."
 - README.md: "Adding README.md."
